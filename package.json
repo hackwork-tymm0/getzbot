@@ -1,0 +1,31 @@
+{
+  "name": "getzbot",
+  "version": "1.0.0",
+  "description": "бот, которого мы заслужили",
+  "main": "build/bundle.js",
+  "scripts": {
+    "bot:watch": "./node_modules/.bin/nodemon ./bin/getzbot.js",
+    "bot:start": "node ./bin/getzbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackwork-tymm0/getzbot.git"
+  },
+  "keywords": [
+    "vk",
+    "bot",
+    "getz"
+  ],
+  "author": "tymm0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackwork-tymm0/getzbot/issues"
+  },
+  "homepage": "https://github.com/hackwork-tymm0/getzbot#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "node-vk-bot-api": "^2.1.1"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "getzbot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "бот, которого мы заслужили",
   "main": "build/bundle.js",
   "scripts": {

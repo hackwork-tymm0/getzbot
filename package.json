@@ -26,6 +26,7 @@
     "nodemon": "^1.18.4"
   },
   "dependencies": {
-    "node-vk-bot-api": "^2.1.1"
+    "node-vk-bot-api": "^2.1.1",
+    "tymlogger": "^1.0.0"
   }
 }
